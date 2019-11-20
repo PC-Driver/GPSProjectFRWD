@@ -10,7 +10,7 @@ The instrutions found below are done on a windows 10 machine. Furthermore, this 
 1) Download the user manual found on the Github page for further reference https://github.com/att-iotstarterkits/sk2-Users-Guide
 
 2) Download the file found here https://s3-us-west-1.amazonaws.com/td-marketplace-assets/SDK01/M18Q2_v12.09.182151_APSS_OE_v01.07.183121.zip - extract into your root directory
-3) Download the "create_adbkey.py" script and place it in C:\\Users\[username]\.android and run the python script, it should create a file called adbkey.pub 
+3) Download the "create_adbkey.py" script and place it in "c:\\Users\[username]\.android" and run the python script, it should create a file called adbkey.pub 
 4) open a command terminal inside the folder you just extracted
 5) enter the command "./adb devices" - this should note that the adb server has started and the listed devices are: "WNC_ADB" (authenticated)
 6) from here you have two ways to program, either by utilizing the 3rd party command line app, Git Bash or by going to the online IDE editor found at 192.168.8.1
