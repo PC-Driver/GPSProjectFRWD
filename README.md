@@ -1,10 +1,11 @@
 # SeniorProjectGPSScript
-GPS Script for the AT&amp;T 2nd Generation IoT Kit for our senior project. This script takes location information and sends the data to a firebase database to be used for the mobile application.
-
+GPS Script for the AT&amp;T 2nd Generation IoT Kit for our senior project. This script takes location information and sends the data to a firebase database to be used for the mobile application. This script is a python script. The extra repository used for this python script is the "python-firebase" library. Installation for this repository is done through the "ADB push" command, more information is found in step 0.5.
 
 
 AT&T second generation IoT kit
 The instrutions found below are done on a windows 10 machine. Furthermore, this is under the assumption that the user is using a working IoT SIM card with the ATT 2nd Generation Kit (from here on out it will be called the SK2)
+
+
 0) Download the connection manager found here https://github.com/CloudConnectKits/WNC/blob/master/WNCCM_1.0.9.msi?raw=true
 0.5) Download the user manual found on the Github page for further reference https://github.com/att-iotstarterkits/sk2-Users-Guide
 
